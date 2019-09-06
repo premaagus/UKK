@@ -1,0 +1,100 @@
+@font-face{
+	src: url('http://localhost/pln/fonts/google.ttf');
+	font-family: google;
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: google;
+}
+.wrapper-shadow{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+}
+.alert{
+	width: 30%;
+	height: 80vh;
+	background: white;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-radius: 10px;
+	text-align: center;
+}
+.logo-success{
+	width: 175px;
+	height: 175px;
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.logo-success img{
+	width: 80%;
+}
+.alert h1{
+	font-family: google;
+	letter-spacing: 1px;
+}
+.alert p{
+	font-family: google;
+	letter-spacing: 1px;
+}
+
+.btn-oke-s{
+	width: 30%;
+	height: 40px;
+	background: red;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #5ab227;
+	margin: auto;
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	right: 0;
+}
+
+.btn-oke-e{
+	width: 30%;
+	height: 40px;
+	background: red;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #e53935;
+	margin: auto;
+	position: absolute;
+	bottom: 25px;
+	left: 0;
+	right: 0;
+}
+
+.btn-oke-s a{
+	width: 100%;
+	height: 100%;
+	float: left;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+}
+.btn-oke-e a{
+	width: 100%;
+	height: 100%;
+	float: left;
+	line-height: 40px;
+	text-decoration: none;
+	color: white;
+}
+
+@keyframes fade{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}

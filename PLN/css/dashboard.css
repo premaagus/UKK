@@ -1,0 +1,238 @@
+@font-face{
+	src: url('http://localhost/pln/fonts/google.ttf');
+	font-family: google;
+}
+@font-face{
+	src: url('http://localhost/pln/fonts/nevis.ttf');
+	font-family: nevis;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: google;
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;;
+}
+
+.left-menu{
+	width: 20%;
+	height: 95vh;
+	padding-top: 5vh;
+	background: #0c70d3;
+	box-shadow: 0 14px 28px rgba(128, 128, 128, 0.5);
+	float: left;
+	position: fixed;
+}
+
+.space{
+	width: 20%;
+	height: 95vh;
+	float: left;
+}
+
+.left-menu h3{
+	text-align: center;
+	margin-top: 0;
+	color: white;
+	font-size: 1.7em;
+	letter-spacing: 1px;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+	margin: auto;
+}
+
+.logo img{
+	width: 100%;
+
+}
+
+.menu-list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.menu-list ul{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.menu-list ul li{
+	list-style: none;
+	height: 40px;
+}
+
+.menu-list ul li a{
+	text-decoration: none;
+	color: #c8c8c8;
+	height: 40px;
+	float: left;
+	width: 100%;
+	line-height: 40px;
+	padding-left: 40px;
+	border-left: 0px solid white;
+	transition: 0.2s ease;
+}
+
+.menu-list ul li a:hover{
+	color: white;
+	border-left: 5px solid white;
+}
+
+.menu-list .active{
+	color: white;
+	border-left: 5px solid white;
+}
+
+.content{
+	width: 75%;
+	padding: 2.5%;
+	float: left;
+}
+
+.content h1{
+	margin-bottom: 0;
+}
+
+.content hr{
+	background: #b3b3b3;
+	border: none;
+	border-radius: 5px;
+	height: 3px;
+}
+
+
+.table-control{
+	border-radius: 5px;
+	overflow: auto;
+	box-shadow: 0 14px 28px rgba(128, 128, 128, 0.2);
+}
+.table-control table{
+	border: none;
+	min-width: 100%;
+	text-align: center;
+}
+.table-control th{
+	background: #70a2ff;
+	color: white;
+	font-weight: 400;
+}
+
+.table-control tr:nth-child(odd){
+	background: #dbe8ff;
+}
+
+.btn-add{
+	width: 100px;
+	height: 40px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.btn{
+	width: 60px;
+	height: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	background: red;
+}
+
+.btn a{
+	text-decoration: none;
+	float: left;
+	height: 100%;
+	padding: 0 5%;
+	width: 90%;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+
+}
+
+.btn-add a{
+	text-decoration: none;
+	float: left;
+	height: 100%;
+	padding: 0 5%;
+	width: 90%;
+	line-height: 40px;
+	color: white;
+
+}
+
+.btn-submit{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	float: right;
+	background: #2389ef;
+}
+
+.btn button{
+	text-decoration: none;
+	height: 100%;
+	padding: 0 5%;
+	width: 90%;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn-edit{
+	background: #7bc86c;
+}
+
+.btn-delete{
+	background: #ff4556;
+}
+
+.btn-info{
+	background: #70a2ff;
+}
+
+.form-control .label{
+	margin-bottom: 2px;
+}
+
+.form-control input{
+	width: 94%;
+	border: 1px solid #BHBHBH;
+	height: 25px;
+	padding: 0 10px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+.form-control textarea{
+	width: 94%;
+	border: 1px solid #BHBHBH;
+	padding: 10px;
+	margin-bottom: 15px;
+	outline: none;
+	resize: none;
+}
+
+.form-control select{
+	width: 30%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.container-form{
+	width: auto;
+}
